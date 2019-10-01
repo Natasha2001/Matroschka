@@ -4,6 +4,8 @@ try:
     import Image
 except:
     from PIL import Image
+#If importing Image from PIL gives an error"No module named Image" then, open terminal(which you use to import libraries)
+#Type"pip install Pillow" and click enter and the library will be downloaded 
 
 import itertools
 
